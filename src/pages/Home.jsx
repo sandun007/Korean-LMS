@@ -4,6 +4,7 @@ import Category from "../components/home/Category.jsx";
 import Topcourse from "../components/home/Topcourse.jsx";
 import Footer from "../components/Footer.jsx";
 import Featurebooks from "../components/home/Featurebooks.jsx";
+import Recentcourse from "../components/home/Recentcourse.jsx";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
             <Category />
             <Topcourse />
             <Featurebooks />
+            <Recentcourse />
         </main>
         <Footer />
     </div>

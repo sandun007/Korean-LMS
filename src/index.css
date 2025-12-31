@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+:root {
+  --color-primary: #084db4;           /* Main buttons, accents, logo */
+  --color-primary-foreground: #FFFFFF; /* Text on primary */
+  --color-primary-hover: #9ca2e4;     /* Hover state */
+  --color-primary-light: #FFEEE8;     /* Light button background (Create Account) */
+  --color-primary-light-hover: #ffd7c7; /* Hover for light variant */
+
+  --color-dark: #1D2026;              /* Header, footer, main headings */
+  --color-foreground: #1D2026;        /* Primary text */
+  --color-muted: #8C94A3;              /* Nav links, secondary text */
+  --color-muted-light: #A1A5B3;        /* Even lighter gray */
+  --color-subtle: #4E5566;            /* Meta text (counts) */
+
+  --color-surface: #F5F7FA;           /* Light section backgrounds */
+  --color-border: #E9EAF0;             /* Subtle borders */
+  --color-divider: #363B47;           /* Dark footer dividers */
+
+  --color-rating: #FD8E1F;            /* Star rating */
+  --color-success: #23BD33;           /* Duration, success icons */
+  --color-info: #564FFD;              /* Students count icon */
+  --color-danger: #E34444;            /* Beginner level bar */
+}

@@ -53,11 +53,12 @@ function Category() {
     ];
     return (
         <>
-            <section className="py-16 md:py-24 bg-gray-50">
+            <section className="py-16 md:py-24 bg-[var(--color-surface)]">
                 <div className="max-w-7xl mx-auto px-6 md:px-8">
-                    <h2 className="text-3xl md:text-5xl font-bold text-[#1D2026] text-center mb-12">
+                    <h2 className="text-3xl md:text-5xl font-bold text-[var(--color-foreground)] text-center mb-12">
                         Browse top category
                     </h2>
+
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                         {categories.map((cat) => (
                             <div
@@ -68,17 +69,17 @@ function Category() {
                                     {cat.icon}
                                 </div>
                                 <div>
-                                    <p className="text-[#1D2026] font-medium text-lg">{cat.name}</p>
-                                    <p className="text-[#6E7485] text-sm mt-1">{cat.courses}</p>
+                                    <p className="text-[var(--color-foreground)] font-medium text-lg">{cat.name}</p>
+                                    <p className="text-[var(--color-subtle)] text-sm mt-1">{cat.courses}</p>
                                 </div>
                             </div>
                         ))}
                     </div>
                     <div className="text-center mt-12">
-                        <p className="text-[#4E5566] text-sm inline mr-4">
+                        <p className="text-[var(--color-subtle)] text-sm inline mr-4">
                             We have more category & subcategory.
                         </p>
-                        <button className="text-orange-600 font-medium text-sm hover:underline inline-flex items-center gap-2">
+                        <button className="text-[var(--color-primary)] font-medium text-sm hover:underline inline-flex items-center gap-2">
                             Browse All
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
