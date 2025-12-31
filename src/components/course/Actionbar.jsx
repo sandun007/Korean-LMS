@@ -29,7 +29,7 @@ function Actionbar() {
                                 </div>
                                 <input
                                     type="text"
-                                    defaultValue="UI/UX Design"
+                                    defaultValue="Grammar"
                                     className="w-full pl-12 pr-4 py-3 border border-[var(--color-border)] rounded-lg focus:outline-none focus:border-[var(--color-primary)] transition"
                                     placeholder="Search courses..."
                                 />
@@ -53,11 +53,13 @@ function Actionbar() {
                 <div className="max-w-7xl mx-auto px-6 md:px-8 py-4 border-t border-[var(--color-border)]">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 text-sm">
                         <div className="flex flex-wrap items-center gap-3">
-                            <span className="text-[var(--color-subtle)]">Suggestion:</span>
+                            <span className="text-[var(--color-subtle)]">
+                                Suggestion:
+                            </span>
                             {["user interface", "user experience", "web design", "interface", "app"].map((tag) => (
                                 <span key={tag} className="text-[var(--color-primary)] hover:underline cursor-pointer">
-                {tag}
-              </span>
+                                    {tag}
+                                </span>
                             ))}
                         </div>
                         <p className="text-[var(--color-subtle)]">
