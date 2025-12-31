@@ -1,15 +1,19 @@
+import Topheader from "./header/Topheader.jsx";
+import Bottomheader from "./header/Bottomheader.jsx";
 
 function Header() {
     return (
         <>
             <header className="fixed top-0 left-0 right-0 z-50 flex flex-col">
+                {/*<Topheader />*/}
+                {/*<Bottomheader />*/}
                 <nav className="bg-[var(--color-dark)] border-b border-[var(--color-divider)] hidden md:block">
                     <div className="px-8 py-4 flex items-center justify-between">
                         <ul className="flex items-center space-x-8 text-sm font-medium">
-                            <li><a href="#" className="text-[var(--color-primary-foreground)] hover:text-[var(--color-primary)] transition">Home</a></li>
-                            <li><a href="#" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">Courses</a></li>
+                            <li><a href="/" className="text-[var(--color-primary-foreground)] hover:text-[var(--color-primary)] transition">Home</a></li>
+                            <li><a href="/course" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">Courses</a></li>
                             <li><a href="#" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">Books</a></li>
-                            <li><a href="#" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">About</a></li>
+                            <li><a href="/about" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">About</a></li>
                             <li><a href="#" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">Contact</a></li>
                         </ul>
 
@@ -28,7 +32,7 @@ function Header() {
                     <div className="px-6 md:px-8 py-4 md:py-6 flex items-center justify-between">
                         {/*  left aligned on mobile, desktop center */}
                         <a href="/" className="text-2xl md:text-3xl font-bold text-(--color-primary)">
-                            E-tutor
+                            Simple Korean
                         </a>
                         <div className="hidden md:flex items-center gap-4">
                            <button className="px-6 py-3 text-[var(--color-primary)] font-semibold bg-[var(--color-primary-light)] hover:bg-[var(--color-primary-light-hover)] rounded-lg transition">
