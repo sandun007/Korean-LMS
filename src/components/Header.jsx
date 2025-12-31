@@ -14,7 +14,7 @@ function Header() {
                             <li><a href="/course" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">Courses</a></li>
                             <li><a href="#" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">Books</a></li>
                             <li><a href="/about" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">About</a></li>
-                            <li><a href="#" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">Contact</a></li>
+                            <li><a href="/contact" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">Contact</a></li>
                         </ul>
 
                         <div className="flex items-center space-x-6 text-sm">
