@@ -8,9 +8,9 @@ import Recentcourse from "../components/home/Recentcourse.jsx";
 
 function Home() {
   return (
-      <div className="min-h-screen flex flex-col">
+      <div>
         <Header />
-          <main className="flex-1 pt-32 md:pt-32">
+          <main>
             <Hero />
             <Category />
             <Topcourse />

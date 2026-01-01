@@ -2,7 +2,9 @@ import React from 'react';
 
 function TopHeader() {
     return (
-        <nav className="bg-[var(--color-dark)] border-b border-[var(--color-divider)] hidden md:block">
+        <nav
+            className=" bg-gradient-to-b from-[var(--color-dark)]/60 to-[var(--color-dark)]/40 backdrop-blur-lg border-b border-white/15 shadow-[0_4px_30px_rgba(0,0,0,0.3)] hidden md:block"
+        >
             <div className="px-6 lg:px-8 py-3 flex items-center justify-between">
                 <ul className="flex items-center gap-6 lg:gap-8 text-sm font-medium">
                     <li>

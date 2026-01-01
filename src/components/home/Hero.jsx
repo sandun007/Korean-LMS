@@ -13,10 +13,10 @@ function Hero() {
                     <source src="/HeroClip.mp4" type="video/mp4" />
                 </video>
 
-                <div className="absolute inset-0 bg-gradient-to-tr from-[var(--color-primary)]/50 via-transparent to-transparent"></div>
+                <div className="absolute inset-0 bg-radial from-transparent via-transparent to-black/20 pointer-events-none" />
 
-                <div className="relative z-10 flex items-end h-full pb-12 md:pb-20 px-8 md:px-12 max-w-4xl">
-                    <div>
+                <div className="relative z-10 flex items-end justify-end h-full pb-12 md:pb-20 pl-6 sm:pl-8 md:pl-12 lg:pl-16 pr-4 md:pr-6 lg:pr-8 max-w-none mx-0">
+                    <div className="w-full md:w-5/12 lg:w-2/5 text-right">
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-[var(--color-primary-foreground)] leading-tight mb-6">
                             Learn with expert anytime anywhere
                         </h1>

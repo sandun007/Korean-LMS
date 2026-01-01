@@ -9,8 +9,9 @@ function Bottomheader() {
     };
 
     return (
-        <div className="bg-white border-b border-[var(--color-border)] shadow-sm">
-            <div className="px-4 sm:px-6 md:px-8 py-4 md:py-5 flex items-center justify-between">
+        <div>
+            <div className="bg-[var(--color-dark)]/30 backdrop-blur-xl border-t border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.25)]
+                px-4 sm:px-6 md:px-8 py-4 md:py-5 flex items-center justify-between">
                 <a href="/" className="flex items-center gap-2 md:gap-3">
                     {/*logo */}
                     <div className="relative w-9 h-9 md:w-10 md:h-10">
@@ -49,7 +50,15 @@ function Bottomheader() {
             <div className={`
                     md:hidden overflow-hidden transition-all duration-300 ease-in-out
                     ${isMenuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
-                <nav className="flex flex-col gap-4 px-6 py-4 bg-white border-t border-[var(--color-border)]">
+                <nav
+                    className="
+                        flex flex-col gap-5 px-6 py-6
+                        bg-[var(--color-dark)]/30
+                        backdrop-blur-xl
+                        border-t border-white/15
+                        shadow-[0_8px_32px_rgba(0,0,0,0.25)]
+                        text-white"
+                >
 
                     <a href="/" className="text-[var(--color-foreground)] text-base font-medium hover:text-[var(--color-primary)] transition">
                         Home

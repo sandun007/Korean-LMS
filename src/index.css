@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --color-primary: #FF6636;           /* Main buttons, accents, logo */
+  --color-primary: #CD2E3A;           /* Main buttons, accents, logo */
   --color-primary-foreground: #FFFFFF; /* Text on primary */
-  --color-primary-hover: #e55a30;     /* Hover state */
+  --color-primary-hover: #B0242F;     /* Hover state */
   --color-primary-light: #FFEEE8;     /* Light button background (Create Account) */
-  --color-primary-light-hover: #ffd7c7; /* Hover for light variant */
+  --color-primary-light-hover: #ffaeab; /* Hover for light variant */
 
-  --color-dark: #1D2026;              /* Header, footer, main headings */
-  --color-foreground: #1D2026;        /* Primary text */
-  --color-muted: #8C94A3;              /* Nav links, secondary text */
+  --color-dark: #121f44;              /* Header, footer, main headings */
+  --color-foreground: #111827;        /* Primary text */
+  --color-muted: #de4c4c;              /* Nav links, secondary text */
   --color-muted-light: #A1A5B3;        /* Even lighter gray */
   --color-subtle: #4E5566;            /* Meta text (counts) */
 

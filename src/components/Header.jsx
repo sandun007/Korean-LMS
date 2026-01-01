@@ -1,4 +1,3 @@
-// Header.jsx
 import Topheader from "./header/Topheader.jsx";
 import Bottomheader from "./header/Bottomheader.jsx";
 import { useState, useEffect } from 'react';
