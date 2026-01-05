@@ -1,6 +1,9 @@
 import Typewriter from "typewriter-effect";
+import { useTranslation } from 'react-i18next';
 
 function Hero() {
+    const { t} = useTranslation();
+    const typewriterPhrases = t('Typewriter', { returnObjects: true });
     return (
         <>
             <section className="relative h-[600px] md:h-screen overflow-hidden">
@@ -15,19 +18,11 @@ function Hero() {
 
                     <div className="w-full max-w-xl md:max-w-2xl lg:max-w-3xl text-right ml-auto">
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-[var(--color-primary-foreground)] leading-tight mb-6">
-                            Learn with experts{" "}
+                            {t('Hero.titleStatic')}{" "}
                             <span className="text-[var(--color-primary)]">
                                 <Typewriter
                                     options={{
-                                        strings: [
-                                            "anytime, anywhere",
-                                            "24/7 premium access",
-                                            "at your own pace",
-                                            "unlock your potential",
-                                            "for a brighter future",
-                                            "on any device",
-                                            "endless growth ahead",
-                                        ],
+                                        strings: typewriterPhrases,
                                         autoStart: true,
                                         loop: true,
                                         cursor: "|",
@@ -39,10 +34,10 @@ function Hero() {
                             </span>
                         </h1>
                         <p className="text-lg md:text-xl text-[var(--color-primary-foreground)]/90 mb-8">
-                            Our mission is to help people to find the best course online and learn with expert anytime, anywhere.
+                            {t('Hero.mission')}
                         </p>
                         <button className="px-8 py-4 bg-[var(--color-primary)] text-[var(--color-primary-foreground)] text-lg font-semibold hover:bg-[var(--color-primary-hover)] rounded-lg transition shadow-lg">
-                            Create Account
+                            {t('Hero.button')}
                         </button>
                     </div>
                 </div>

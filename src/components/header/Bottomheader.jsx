@@ -1,11 +1,17 @@
-
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Bottomheader() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
+    };
+
+    const { t , i18n } = useTranslation();
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
     };
 
     return (
@@ -31,19 +37,19 @@ function Bottomheader() {
                                 bg-[var(--color-primary-light)] text-[var(--color-primary)]
                                 hover:bg-[var(--color-primary-light-hover)] transition"
                         >
-                            Create Account
+                            {t('Nav.createAccount')}
                         </button>
                         <button
                             className="
                                 px-6 py-3 rounded-lg font-semibold text-base
                                 bg-[var(--color-primary)] text-[var(--color-primary-foreground)]
                                 hover:bg-[var(--color-primary-hover)] transition">
-                            Sign In
+                            {t('Nav.signIn')}
                         </button>
 
                         <div className="relative group">
                             <button className="flex items-center gap-1 text-[var(--color-muted-light)] hover:text-[var(--color-primary-foreground)] transition text-sm">
-                                English <span className="ml-1">↓</span>
+                                {i18n.language === 'en' ? 'English' : '한국어'} <span className="ml-1">↓</span>
                             </button>
 
                             <div
@@ -55,12 +61,21 @@ function Bottomheader() {
                                     opacity-0 invisible group-hover:opacity-100 group-hover:visible
                                     transition-all duration-150"
                             >
-                                <button className="block w-full text-left px-4 py-2.5 text-sm text-[var(--color-primary-foreground)] hover:bg-white/10 transition">
-                                    English
-                                </button>
-                                <button className="block w-full text-left px-4 py-2.5 text-sm text-[var(--color-primary-foreground)] hover:bg-white/10 transition">
-                                    한국어
-                                </button>
+                                <select
+                                    value={i18n.language || 'en'}
+                                    onChange={(e) => changeLanguage(e.target.value)}
+                                    className="
+                                        w-full bg-[var(--color-dark)]/60 backdrop-blur-sm
+                                        px-4 py-2.5 pr-10
+                                        text-sm text-[var(--color-primary-foreground)]
+                                        border border-white/10 rounded-lg
+                                        focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]/50
+                                        cursor-pointer appearance-none
+                                        relative"
+                                >
+                                    <option value="en">English</option>
+                                    <option value="kr">한국어</option>
+                                </select>
                             </div>
                         </div>
                     </div>

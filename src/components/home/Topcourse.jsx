@@ -1,5 +1,5 @@
 import React from 'react'
-import { CometCard } from "@/components/ui/comet-card";
+import { CometCard } from "@/components/ui/comet-card.tsx";
 
 function Topcourse() {
     const courses = [
@@ -58,16 +58,22 @@ function Topcourse() {
                                 key={course.title}
                                 className="h-full"
                             >
-                                <img
-                                    src={course.image}
-                                    alt={course.title}
-                                    className="w-full h-48 object-cover"
-                                />
+                                <CometCard>
+                                    <img
+                                        src={course.image}
+                                        alt={course.title}
+                                        className="w-full h-48 object-cover"
+                                    />
+                                </CometCard>
+
                                 <div className="p-5">
                                     <div className="flex justify-between items-center mb-3">
-                                        <span className="text-xs font-medium px-3 py-1 bg-[var(--color-primary-light)] text-[var(--color-primary)] rounded-full">
+                                        <CometCard>
+                                            <span className="text-xs font-medium px-3 py-1 bg-[var(--color-primary-light)] text-[var(--color-primary)] rounded-full">
                                             {course.category}
                                         </span>
+                                        </CometCard>
+
                                         <span className="text-xl font-bold text-[var(--color-primary)]">
                                             {course.price}
                                         </span>

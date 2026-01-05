@@ -5,6 +5,7 @@ import Topcourse from "../components/home/Topcourse.jsx";
 import Footer from "../components/Footer.jsx";
 import Featurebooks from "../components/home/Featurebooks.jsx";
 import Recentcourse from "../components/home/Recentcourse.jsx";
+import '/src/i18n.js'
 
 function Home() {
   return (

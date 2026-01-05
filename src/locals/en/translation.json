@@ -1,0 +1,32 @@
+{
+  "Nav": {
+    "home": "Home",
+    "courses": "Courses",
+    "books": "Books",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact",
+    "createAccount": "Create Account",
+    "signIn": "Sign In"
+  },
+  "Languages": {
+    "en": "English",
+    "kr": "Korean"
+  },
+
+
+  "Hero": {
+    "titleStatic": "Learn with experts",
+    "mission": "Our mission is to help people to find the best course online and learn with expert anytime, anywhere.",
+    "button": "Create Account"
+  },
+  "Typewriter": [
+    "anytime, anywhere",
+    "24/7 premium access",
+    "at your own pace",
+    "unlock your potential",
+    "for a brighter future",
+    "on any device",
+    "endless growth ahead"
+  ]
+}
