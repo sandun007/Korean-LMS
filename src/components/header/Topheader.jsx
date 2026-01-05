@@ -38,15 +38,6 @@ function TopHeader() {
                         </a>
                     </li>
                 </ul>
-
-                <div className="flex items-center gap-6 text-sm">
-                    <button className="flex items-center gap-1 text-[var(--color-muted-light)] hover:text-[var(--color-primary-foreground)] transition">
-                        USD <span className="ml-1">↓</span>
-                    </button>
-                    <button className="flex items-center gap-1 text-[var(--color-muted-light)] hover:text-[var(--color-primary-foreground)] transition">
-                        English <span className="ml-1">↓</span>
-                    </button>
-                </div>
             </div>
         </nav>
     );

@@ -9,7 +9,7 @@ function Bottomheader() {
     };
 
     return (
-        <div>
+        <div className="isolate">
             <div className="bg-[var(--color-dark)]/30 backdrop-blur-xl border-t border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.25)]
                 px-4 sm:px-6 md:px-8 py-4 md:py-5 flex items-center justify-between">
                 <a href="/" className="flex items-center gap-2 md:gap-3">
@@ -17,26 +17,53 @@ function Bottomheader() {
                     <div className="relative w-9 h-9 md:w-10 md:h-10">
                         {/* paste logos */}
                     </div>
-                    <span className="text-[var(--color-primary)] font-inter text-2xl md:text-3xl font-bold tracking-[-0.03em]">
+                    <span className="text-[var(--color-primary-foreground)] font-inter text-2xl md:text-3xl font-bold tracking-[-0.03em]">
                         Simple Korean
                     </span>
                 </a>
 
-                <div className="hidden md:flex items-center gap-4 lg:gap-6">
-                    <button
-                        className="
-                        px-6 py-3 rounded-lg font-semibold text-base
-                        bg-[var(--color-primary-light)] text-[var(--color-primary)]
-                        hover:bg-[var(--color-primary-light-hover)] transition">
-                        Create Account
-                    </button>
-                    <button
-                        className="
-                            px-6 py-3 rounded-lg font-semibold text-base
-                            bg-[var(--color-primary)] text-[var(--color-primary-foreground)]
-                            hover:bg-[var(--color-primary-hover)] transition">
-                        Sign In
-                    </button>
+                <div className="hidden md:flex items-center gap-6 lg:gap-8">
+
+                    <div className="flex items-center gap-6">
+                        <button
+                            className="
+                                px-6 py-3 rounded-lg font-semibold text-base
+                                bg-[var(--color-primary-light)] text-[var(--color-primary)]
+                                hover:bg-[var(--color-primary-light-hover)] transition"
+                        >
+                            Create Account
+                        </button>
+                        <button
+                            className="
+                                px-6 py-3 rounded-lg font-semibold text-base
+                                bg-[var(--color-primary)] text-[var(--color-primary-foreground)]
+                                hover:bg-[var(--color-primary-hover)] transition">
+                            Sign In
+                        </button>
+
+                        <div className="relative group">
+                            <button className="flex items-center gap-1 text-[var(--color-muted-light)] hover:text-[var(--color-primary-foreground)] transition text-sm">
+                                English <span className="ml-1">↓</span>
+                            </button>
+
+                            <div
+                                className="
+                                    absolute right-0 top-full mt-2 w-40
+                                    bg-[var(--color-dark)]/95 backdrop-blur-md
+                                    border border-white/10 rounded-lg
+                                    shadow-2xl
+                                    opacity-0 invisible group-hover:opacity-100 group-hover:visible
+                                    transition-all duration-150"
+                            >
+                                <button className="block w-full text-left px-4 py-2.5 text-sm text-[var(--color-primary-foreground)] hover:bg-white/10 transition">
+                                    English
+                                </button>
+                                <button className="block w-full text-left px-4 py-2.5 text-sm text-[var(--color-primary-foreground)] hover:bg-white/10 transition">
+                                    한국어
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 {/*Mobile view*/}
@@ -91,6 +118,7 @@ function Bottomheader() {
                         hover:bg-[var(--color-primary-hover)] transition">
                         Sign In
                     </button>
+
                 </nav>
             </div>
         </div>

@@ -1,7 +1,10 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
 
 :root {
-  --color-primary: #fd2534;           /* Main buttons, accents, logo */
+  --color-primary: #960813;           /* Main buttons, accents, logo */
   --color-primary-foreground: #ffffff; /* Text on primary */
   --color-primary-hover: #B0242F;     /* Hover state */
   --color-primary-light: #FFEEE8;     /* Light button background (Create Account) */

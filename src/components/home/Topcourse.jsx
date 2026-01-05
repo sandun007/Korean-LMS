@@ -1,4 +1,5 @@
 import React from 'react'
+import { CometCard } from "@/components/ui/comet-card";
 
 function Topcourse() {
     const courses = [
@@ -53,9 +54,9 @@ function Topcourse() {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
                         {courses.map((course) => (
-                            <div
+                            <CometCard
                                 key={course.title}
-                                className="bg-[var(--color-card)] rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer"
+                                className="h-full"
                             >
                                 <img
                                     src={course.image}
@@ -82,7 +83,7 @@ function Topcourse() {
                                         <span>{course.students} students</span>
                                     </div>
                                 </div>
-                            </div>
+                            </CometCard>
                         ))}
                     </div>
 

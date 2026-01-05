@@ -5,12 +5,7 @@ function Hero() {
         <>
             <section className="relative h-[600px] md:h-screen overflow-hidden">
                 <video
-                    className="absolute inset-0 w-full h-full object-cover"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                >
+                    className="absolute inset-0 w-full h-full object-cover" autoPlay muted loop playsInline>
                     <source src="/HeroClip.mp4" type="video/mp4" />
                 </video>
 
