@@ -1,6 +1,6 @@
-// src/i18n.js
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
 
 import en from './locals/en/translation.json';
 import kr from './locals/kr/translation.json';
@@ -8,6 +8,7 @@ import kr from './locals/kr/translation.json';
 console.log("i18n.js is being executed");
 
 i18n
+    .use(LanguageDetector)
     .use(initReactI18next)
     .init({
         resources: {
@@ -15,7 +16,7 @@ i18n
             kr: { translation: kr }
         },
         fallbackLng: 'en',
-        lng: 'en',
+        //lng: 'en',
         interpolation: {
             escapeValue: false
         }

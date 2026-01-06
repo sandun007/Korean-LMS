@@ -25,3 +25,11 @@
   --color-info: #564FFD;              /* Students count icon */
   --color-danger: #E34444;            /* Beginner level bar */
 }
+
+@keyframes pulse-slow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+.animate-pulse-slow {
+    animation: pulse-slow 4s ease-in-out infinite;
+}

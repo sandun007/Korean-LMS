@@ -1,3 +1,4 @@
+
 {
   "Nav": {
     "home": "홈",
@@ -14,6 +15,38 @@
     "kr": "한국어"
   },
 
+
+  "Footer": {
+    "start": "전 세계 수천 명의 학생들과 함께 한국어 학습을 시작하세요.",
+    "join": "패밀리 되기",
+    "brows": "모든 강좌 둘러보기",
+    "online": "온라인 강좌",
+    "ins": "인증 강사",
+    "rate": "성공률",
+    "name": "Simple Korean",
+    "expert": "전문 강사와 함께 인터랙티브 수업, 실제 대화, 문화 이해를 통해 한국어를 마스터하세요.",
+    "category": {
+      "name": "카테고리",
+      "basics": "한글 & 기초",
+      "con": "회화",
+      "grammar": "문법",
+      "top": "TOPIK 대비"
+    },
+    "links": {
+      "name": "빠른 링크",
+      "about": "회사 소개",
+      "brows": "강좌 둘러보기",
+      "contact": "문의하기"
+    },
+    "support": {
+      "name": "고객 지원",
+      "help": "도움말 센터",
+      "faq": "자주 묻는 질문",
+      "term": "이용약관",
+      "policy": "개인정보 처리방침"
+    }
+  },
+
   "Hero": {
     "titleStatic": "전문가와 함께 배우세요",
     "mission": "우리의 사명은 사람들이 최고의 온라인 강의를 찾고 언제 어디서나 전문가와 배울 수 있도록 돕는 것입니다.",
@@ -27,5 +60,119 @@
     "더 밝은 미래를 위해",
     "모든 기기에서",
     "끝없는 성장 앞에"
-  ]
+  ],
+
+
+
+  "Category": {
+    "heading": "상위 카테고리 탐색",
+    "more": "더 많은 카테고리와 하위 카테고리가 있습니다.",
+    "browseAll": "모두 보기",
+    "grammar": "문법 기초",
+    "listening": "듣기 & 발음",
+    "hangul": "한글 기초",
+    "conversation": "회화 연습"
+  },
+  "common": {
+    "courses": "코스"
+  },
+
+
+  "TopCourses": {
+    "heading": "베스트셀러 한국어 강의",
+    "viewAll": "모든 강의 보기",
+    "students": "명 수강생",
+    "list": {
+      "first-step": {
+        "title": "첫걸음 한국어 (연세대학교)",
+        "category": "초급"
+      },
+      "speak-now": {
+        "title": "지금 한국어 말하기 01",
+        "category": "회화"
+      },
+      "practical-beginners": {
+        "title": "초보자를 위한 실용 한국어",
+        "category": "어휘"
+      },
+      "topik-prep": {
+        "title": "TOPIK 대비 과정",
+        "category": "시험 준비"
+      },
+      "kpop-dramas": {
+        "title": "K-Pop & 드라마로 배우는 한국어",
+        "category": "재미 학습"
+      }
+    }
+  },
+
+
+  "FeatureBooks": {
+    "heading": "추천 도서",
+    "viewAll": "모든 도서 보기",
+    "readers": "명 독자",
+    "list": {
+      "yonsei-1": {
+        "title": "연세 한국어 1-1 (영어판)",
+        "category": "초급"
+      },
+      "ttmik-level1": {
+        "title": "한국어 회화 레벨 1 패키지",
+        "category": "회화"
+      },
+      "integrated-beginning1": {
+        "title": "통합 한국어: 기초 1",
+        "category": "문법"
+      },
+      "grammar-in-use-beginning": {
+        "title": "한국어 문법 활용하기 - 초급",
+        "category": "문법"
+      },
+      "topik-master": {
+        "title": "TOPIK 마스터 파이널 (중급-고급)",
+        "category": "시험 대비"
+      }
+    }
+  },
+
+
+  "RecentCourses": {
+    "heading": "최근 오픈된 강의",
+    "students": "명 수강생",
+    "hours": "시간",
+    "levels": {
+      "beginner": "초급",
+      "intermediate": "중급",
+      "advanced": "고급"
+    },
+    "list": {
+      "first-step": {
+        "title": "첫걸음 한국어 (연세대학교)",
+        "category": "초급"
+      },
+      "speak-korean-1": {
+        "title": "한국어 말하기 1",
+        "category": "회화"
+      },
+      "grammar-use-beginning": {
+        "title": "Korean Grammar in Use - 초급",
+        "category": "문법"
+      },
+      "topik-ii-prep": {
+        "title": "TOPIK II 대비 과정",
+        "category": "시험 준비"
+      }
+    }
+  },
+
+  "Ad": {
+    "offer": "특별 메뉴",
+    "master": "한국어를 더 빨리 마스터하세요",
+    "with": "~와 함께",
+    "access": "프리미엄 액세스",
+    "unlimited": "무제한 수업, 실시간 대화, 독점 자료 등 진정한 유창함을 달성하는 데 필요한 모든 것을 제공합니다.",
+    "trial": "무료 평가판을 시작하세요",
+    "plan": "모든 플랜 보기 →",
+    "off": "30% 할인!"
+  }
 }

@@ -48,7 +48,7 @@ function Bottomheader() {
                         </button>
 
                         <div className="relative group">
-                            <button className="flex items-center gap-1 text-[var(--color-muted-light)] hover:text-[var(--color-primary-foreground)] transition text-sm">
+                            <button className="flex items-center gap-1 text-black hover:text-[var(--color-primary)] transition text-sm">
                                 {i18n.language === 'en' ? 'English' : '한국어'} <span className="ml-1">↓</span>
                             </button>
 

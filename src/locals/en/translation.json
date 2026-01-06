@@ -14,6 +14,38 @@
     "kr": "Korean"
   },
 
+  "Footer": {
+    "start": "Start learning Korean with thousands of students worldwide.",
+    "join": "Join the Family",
+    "brows": "Browse all courses",
+    "online": "Online Courses",
+    "ins": "Certified Instructors",
+    "rate": "Success Rate",
+    "name": "Simple Korean",
+    "expert": "Master Korean with expert instructors through interactive lessons, real conversations, and cultural insights.",
+    "category": {
+      "name": "Category",
+      "basics": "Hangul & Basics",
+      "con": "Conversation",
+      "grammar": "Grammar",
+      "top": "TOPIK Prep"
+    },
+    "links": {
+      "name": "Quick Links",
+      "about": "About",
+      "brows": "Browse Courses",
+      "contact": "Contact"
+    },
+    "support": {
+      "name": "Support",
+      "help": "Help Center",
+      "faq": "FAQs",
+      "term": "Terms & Conditions",
+      "policy": "Privacy Policy"
+    }
+  },
+
+
 
   "Hero": {
     "titleStatic": "Learn with experts",
@@ -28,5 +60,124 @@
     "for a brighter future",
     "on any device",
     "endless growth ahead"
-  ]
+  ],
+
+
+
+  "Category": {
+    "heading": "Browse top category",
+    "more": "We have more category & subcategory.",
+    "browseAll": "Browse All",
+    "grammar": "Grammar Essentials",
+    "listening": "Listening & Pronunciation",
+    "hangul": "Hangul Basics",
+    "conversation": "Conversation Practice"
+  },
+  "common": {
+    "courses": "Courses"
+  },
+
+
+
+  "TopCourses": {
+    "heading": "Best Selling Korean Courses",
+    "viewAll": "View All Courses",
+    "students": "students",
+    "list": {
+      "first-step": {
+        "title": "First Step Korean (Yonsei University)",
+        "category": "Beginner"
+      },
+      "speak-now": {
+        "title": "Learn to Speak Korean Now 01",
+        "category": "Conversation"
+      },
+      "practical-beginners": {
+        "title": "Practical Korean for Beginners",
+        "category": "Vocabulary"
+      },
+      "topik-prep": {
+        "title": "TOPIK Preparation Course",
+        "category": "Exam Prep"
+      },
+      "kpop-dramas": {
+        "title": "Korean Through K-Pop & Dramas",
+        "category": "Fun Learning"
+      }
+    }
+  },
+
+
+
+  "FeatureBooks": {
+    "heading": "Our Feature Books",
+    "viewAll": "View All Books",
+    "readers": "readers",
+    "list": {
+      "yonsei-1": {
+        "title": "Yonsei Korean 1-1 (English Version)",
+        "category": "Beginner"
+      },
+      "ttmik-level1": {
+        "title": "Talk To Me In Korean Level 1 Package",
+        "category": "Conversation"
+      },
+      "integrated-beginning1": {
+        "title": "Integrated Korean: Beginning 1",
+        "category": "Grammar"
+      },
+      "grammar-in-use-beginning": {
+        "title": "Korean Grammar in Use - Beginning",
+        "category": "Grammar"
+      },
+      "topik-master": {
+        "title": "TOPIK Master Final (Intermediate-Advanced)",
+        "category": "Exam Prep"
+      }
+    }
+  },
+
+
+
+  "RecentCourses": {
+    "heading": "Our Recent Courses",
+    "students": "students",
+    "hours": "hours",
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "list": {
+      "first-step": {
+        "title": "First Step Korean (Yonsei University)",
+        "category": "Beginner"
+      },
+      "speak-korean-1": {
+        "title": "Learn to Speak Korean 1",
+        "category": "Conversation"
+      },
+      "grammar-use-beginning": {
+        "title": "Korean Grammar in Use - Beginning",
+        "category": "Grammar"
+      },
+      "topik-ii-prep": {
+        "title": "TOPIK II Preparation Course",
+        "category": "Exam Prep"
+      }
+    }
+  },
+
+
+
+  "Ad": {
+    "offer": "Special Offer",
+    "master": "Master Korean Faster",
+    "with": "with",
+    "access": "Premium Access",
+    "unlimited": "Unlimited courses, live conversations, and exclusive materials — all designed for real fluency.",
+    "trial": "Start Free Trial",
+    "plan": "See All Plans →",
+    "off": "30% OFF!"
+  }
 }
