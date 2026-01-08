@@ -8,6 +8,7 @@ import Featurebooks from "../components/home/Featurebooks.jsx";
 import Recentcourse from "../components/home/Recentcourse.jsx";
 import Ad from "@/components/home/Ad.jsx";
 import Gallery from "@/components/home/Gallery.jsx";
+import Aboutme from "@/components/home/Aboutme.jsx";
 
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
               <Featurebooks />
               <Recentcourse />
               <Ad />
+              <Aboutme />
               <Gallery />
           </main>
         <Footer />

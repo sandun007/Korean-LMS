@@ -112,12 +112,6 @@ export const Header = () => {
               Join our global community of passionate teachers and enthusiastic students. From beginners mastering Hangul to advanced learners acing TOPIK — we're all here to learn, laugh, and grow together.
           </p>
 
-          <div className="mt-12 rounded-2xl overflow-hidden shadow-2xl">
-              <div className="absolute bottom-6 left-6 text-white text-xl font-semibold drop-shadow-lg">
-                  Real moments from our classes around the world
-              </div>
-          </div>
-
           <div className="mt-10 text-center space-y-6">
               <p className="text-lg text-gray-600">
                   Scroll to see more class moments, teacher intros, and student success stories →
