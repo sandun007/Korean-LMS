@@ -20,7 +20,7 @@ function TopHeader() {
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">
+                        <a href="/books" className="text-[var(--color-muted)] hover:text-[var(--color-primary-foreground)] transition">
                             {t('Nav.books')}
                         </a>
                     </li>

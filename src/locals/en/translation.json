@@ -179,5 +179,16 @@
     "trial": "Start Free Trial",
     "plan": "See All Plans →",
     "off": "30% OFF!"
+  },
+
+
+  "Course": {
+    "action": {
+      "filter": "Filter",
+      "sort": "Sort by:",
+      "trend": "Trending",
+      "sug": "Suggestion:"
+    }
   }
 }
+

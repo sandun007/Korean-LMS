@@ -1,3 +1,4 @@
+import '/src/i18n.js'
 import Header from "../components/Header"
 import Hero from "../components/home/Hero.jsx";
 import Category from "../components/home/Category.jsx";
@@ -6,7 +7,7 @@ import Footer from "../components/Footer.jsx";
 import Featurebooks from "../components/home/Featurebooks.jsx";
 import Recentcourse from "../components/home/Recentcourse.jsx";
 import Ad from "@/components/home/Ad.jsx";
-import '/src/i18n.js'
+import Gallery from "@/components/home/Gallery.jsx";
 
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
               <Featurebooks />
               <Recentcourse />
               <Ad />
+              <Gallery />
           </main>
         <Footer />
       </div>
