@@ -18,7 +18,7 @@ function Bottomheader() {
         <div className="isolate">
             <div className="bg-[var(--color-dark)]/30 backdrop-blur-xl border-t border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.25)]
                 px-4 sm:px-6 md:px-8 py-4 md:py-5 flex items-center justify-between">
-                <a href="/" className="flex items-center gap-2 md:gap-3">
+                <a href="/dashboard/main" className="flex items-center gap-2 md:gap-3">
                     {/*logo */}
                     <div className="relative w-9 h-9 md:w-10 md:h-10">
                         {/* paste logos */}

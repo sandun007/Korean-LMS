@@ -72,7 +72,8 @@ function Booksview() {
                         className="
                         flex flex-col items-center text-center
                         rounded-xl
-                        p-10 shadow-md hover:shadow-2xl transition-shadow duration-300
+                        p-10
+                        shadow-md hover:shadow-2xl transition-shadow duration-300
                         max-w-[300px] w-full
                         hover:bg-gray-200
                         relative"
@@ -84,11 +85,12 @@ function Booksview() {
                             className="w-full h-full bg-center bg-cover bg-no-repeat duration-300"
                         />
 
-                        <div className="mt-4 w-full max-w-[280px] px-2 ">
+                        <div className="mt-4 w-full max-w-[280px]  pt-0">
                             <h3
                                 className="
                                 text-lg md:text-xl font-semibold text-[var(--color-primary)]
-                                break-words hyphens-auto leading-tight pb-2"
+                                break-words hyphens-auto leading-tight pb-2
+                                line-clamp-2 min-h-[3rem]"
                             >
                                 {book.title}
                             </h3>
@@ -101,7 +103,7 @@ function Booksview() {
                                 {book.category}
                             </span>
 
-                            <hr className="w-full border-gray-200 my-3 " />
+                            <hr className="w-full border-gray-500 my-3 " />
 
                             <p className="mt-2 text-base font-medium text-black xl:pt-4">
                                 {book.price}
@@ -111,10 +113,11 @@ function Booksview() {
                                 flex items-center justify-center
                                 w-10 h-10 rounded-full
                                 bg-white border-2 border-gray-300
-                                text-red-500 hover:text-red-600
+                                text-red-400 hover:text-red-600
                                 shadow-md hover:shadow-lg
-                                transition-all duration-200
+                                transition-all
                                 active:scale-95
+                                hover:scale-120
                                 absolute bottom-8 right-7
                                 cursor-pointer"
                             >
