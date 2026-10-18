@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 function Createcourse() {
     return (
@@ -53,8 +54,8 @@ function Createcourse() {
                                 <span className="font-medium text-slate-900">Basic Information</span>
                             </div>
                             <span className="text-xs font-medium text-green-600 bg-green-50 px-2.5 py-1 rounded-full">
-                7/12
-              </span>
+                                7/12
+                            </span>
                         </button>
 
                         <button className="flex-1 min-w-[280px] flex items-center justify-between px-6 py-4 bg-white border-b-4 border-transparent rounded-xl hover:bg-slate-50 transition-all">
@@ -102,8 +103,8 @@ function Createcourse() {
                                 className="w-full px-5 py-4 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all"
                             />
                             <span className="absolute right-5 top-1/2 -translate-y-1/2 text-sm text-slate-500">
-                0/80
-              </span>
+                                0/80
+                            </span>
                         </div>
                     </div>
 
@@ -119,8 +120,8 @@ function Createcourse() {
                                 className="w-full px-5 py-4 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all"
                             />
                             <span className="absolute right-5 top-1/2 -translate-y-1/2 text-sm text-slate-500">
-                0/120
-              </span>
+                                0/120
+                            </span>
                         </div>
                     </div>
 
@@ -228,13 +229,15 @@ function Createcourse() {
 
                 {/* Bottom Actions */}
                 <div className="mt-12 flex flex-col sm:flex-row justify-between items-center gap-6">
-                    <button className="px-10 py-4 border border-slate-300 text-slate-600 rounded-full font-medium hover:bg-slate-50 transition-colors w-full sm:w-auto">
+                    <Link to="/dashboard/course"
+                        className="px-10 py-4 border border-slate-300 text-slate-600 rounded-full font-medium hover:bg-slate-50 transition-colors w-full sm:w-auto">
                         Cancel
-                    </button>
+                    </Link>
 
-                    <button className="px-12 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full font-medium transition-colors shadow-sm w-full sm:w-auto">
+                    <Link to="/dashboard/course/create2"
+                        className="px-12 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full font-medium transition-colors shadow-sm w-full sm:w-auto">
                         Save & Next →
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

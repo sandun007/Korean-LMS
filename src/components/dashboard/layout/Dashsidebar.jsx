@@ -67,7 +67,7 @@ export default function SidebarComponent() {
         },
         {
             label: "Exams",
-            href: "#",
+            href: "/dashboard/adminquizdashboard",
             icon: <IconClipboardText className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
         },
         {
@@ -114,7 +114,7 @@ export default function SidebarComponent() {
                     <SidebarLink
                         link={{
                             label: "Administrator",
-                            href: "#",
+                            href: "/profile",
                             icon: (
                                 <img
                                     src="https://assets.aceternity.com/manu.png"
